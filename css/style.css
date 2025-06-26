@@ -41,6 +41,10 @@ h2{
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+.perfil:hover{
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+    transition: transform 0.3s ease; /* Transición suave */
+    }
 /* contenido del texto gral*/
 .content div{
 padding: 20px;

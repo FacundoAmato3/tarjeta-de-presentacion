@@ -1,52 +1,73 @@
+/*Fondo general con un degradado vertical*/
 body{
     background:linear-gradient(#096B68,#129990 );
     margin: 20px 20px;
     color: #333;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/*Fondo del contenido principal*/
 main{
-    
+    /*Se utiliza para poder dejar la imagen de fondo, fijarla para poder moverla*/
     background-image: url(../img/imagen1..jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-size: cover; /*Ajusta la imagen al tamaño del contenedor*/
+    background-position: center; /*Centrar la imagen*/
+    background-attachment: fixed; /*Fija la imagen de fondo*/
+    padding: 40px;
 }
+/*Estilo del encabezado*/
 .header-content{
-    
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    padding: 5px 5px;
+    padding: 10px 20px;
     display: inline-block;
-    
+    background-color: rgba(255, 255, 255, 0.1); /*Fondo semitransparente*/
+    border-radius: 10px;
 }
+/*Estilo del título principal*/
 h1{
     padding: 10px 60px;
     border-bottom: #FFFBDE 1px solid;
+    color: #FFFBDE;
 }
+/*Estilo del Subtitulo*/
 h2{
     font-size: 20px;
-    color: #444;
+    color: #f0f0f0;
 }
-.fondo{
-    max-width: 500px;
-}
+/*imagen de perfil*/
 .perfil{
     border-radius: 25%;
     max-width: 200px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+/* contenido del texto gral*/
 .content div{
-padding: 200px;
+padding: 20px;
+max-width: 800px;
+margin: 0 auto; /* Centrar el contenido */
 }
-p{
+/* Estilo de los párrafos dentro del contenido */
+.content p{
     background-color: #FFFBDE;
     font-size: 16px;
     line-height: 1.5;
-    margin: 10px 0;
+    margin: 10px auto;
     border-radius: 5px;
-    width: fit-content;
+    padding: 15px;
+    max-width: 90%;
+    text-align: left;
 }
+/* encabezado de la sección de contacto */
 h3{
     font-size: 18px;
     margin-top: 20px;
-
+    color: #fff;
+}
+/* Estilo de los enlaces */
+footer{
+    background-color: rgba(0,0,0,0.1);
+    padding: 20px;
+    border-top: 1px solid #FFFBDE;
+    color: #FFF;
 }
